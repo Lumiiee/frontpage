@@ -1,0 +1,129 @@
+body {
+    background-color: #f3ebeb73;
+    color: rgb(185, 179, 179);
+    font-family: 'Times New Roman', Times, serif;
+}
+.div1 {
+    text-align: center;
+}
+
+h3{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
+    color: rgb(184, 159, 159);
+}
+
+#p1 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#p4 {
+    margin-bottom: 2px;
+}
+
+#p5 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right,rgb(111, 214, 125),rgb(113, 224, 219));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.conn {
+    height: 420px;
+    margin:0 20%;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.55), 10px 10px 15px rgba(70, 70, 70, 0.12);
+    border-radius: 20px;  
+    background-color:#f3ebeb73 ;
+
+}
+
+
+.baba {
+    text-align: center;
+}
+
+.pelu i{
+text-align: center;
+padding-top: 90px;
+font-size:130px;
+margin-bottom: 20px;
+}
+
+.pelu{
+    border: hidden;
+    border-right: 1px solid rgb(226, 221, 221);
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 0;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.bodd {
+    margin-top: 25px;
+    margin-left: 9%;
+    height:10%;
+    width: 85%;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.55), 10px 10px 15px rgba(70, 70, 70, 0.12);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    font-size: small;
+
+}
+
+ .bodd input[type="radio"] {
+    display: none;
+}
+
+.bodd input[type="radio"]:checked + label {
+    box-shadow:  inset -10px -10px 15px rgba(255, 255, 255, 0.55), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+
+ .bodd label{
+    padding: 1% 10% ;
+    border-radius: 25px;
+
+}
+
+form input {
+    width: 85%;
+    height: 25px;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+    border: hidden;
+    border-radius: 8px;
+    background-color: #f3ebeb72;
+
+
+}
+
+form label {
+    margin-top: 15px;
+    margin-bottom: 2px;
+    font-size: 0.7em;
+    margin-left: 7%;
+    float: left;
+}
+
+.div3 {
+    margin-top: 4px;
+    font-size: small;
+    padding-right: 24%;
+}
+
+.div3 label + input {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+button {
+    margin-top: 15px;
+    background: linear-gradient(to right, rgb(111, 214, 125),rgb(113, 224, 219));
+    width: 84%;
+}
